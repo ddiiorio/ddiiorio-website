@@ -1,5 +1,12 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+
 body {
     padding-top: 54px;
+    margin-bottom: 120px;
 }
 
 @media (min-width: 992px) {
@@ -33,4 +40,18 @@ body {
 
 .img-fluid:hover {
     opacity: 0.7;
+}
+
+.ddImg {
+    padding-left: 35px;
+    max-width: 170px;
+    padding-bottom: 80px;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 120px;
 }
