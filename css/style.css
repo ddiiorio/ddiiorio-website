@@ -3,7 +3,6 @@ html {
     min-height: 100%;
 }
 
-
 body {
     padding-top: 54px;
     margin-bottom: 120px;
@@ -43,15 +42,14 @@ body {
 }
 
 .ddImg {
-    padding-left: 35px;
+    padding-left: 15px;
     max-width: 170px;
-    padding-bottom: 80px;
+    padding-bottom: 50px;
 }
 
 .footer {
     position: absolute;
     bottom: 0;
     width: 100%;
-    /* Set the fixed height of the footer here */
     height: 120px;
 }
