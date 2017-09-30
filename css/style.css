@@ -22,7 +22,7 @@ body {
     margin-bottom: 15px;
 }
 
-.btn-primary, .btn-warning {
+.btn-primary, .btn-info {
     box-shadow: 1px 2px 5px #000000;
     margin: 5px 3px;
 }
