@@ -81,17 +81,17 @@
 
 <!-- Slideout -->
 <div class="container">
-    <a href="#" class="btn btn-warning btn-sm">Gearheads Only</a>
+    <a href="#" class="btn btn-warning btn-sm sidebtn">Gearheads Only</a>
 </div>
 
-<div class="sidebar">
+<div class="sidebar is-hidden">
     <ul>
         <li><a href="https://www.instagram.com/6666frs/"><img src="img/instagram.png" width="60" height="60"></a></li>
     </ul>
 </div>
 
 <script>
-    const button = document.querySelector('.btn')
+    const button = document.querySelector('.sidebtn')
     const sidebar = document.querySelector('.sidebar')
 
     button.addEventListener('click', function() {
